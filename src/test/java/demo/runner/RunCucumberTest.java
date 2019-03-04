@@ -14,8 +14,6 @@ import org.junit.runner.RunWith;
 public class RunCucumberTest {
 
     public static void main(String[] args) {
-        //String[] arguments = {"foo", "bar"};
-        //cucumber.api.cli.Main.main(arguments);
         JUnitCore.main(RunCucumberTest.class.getName());
     }
 }
