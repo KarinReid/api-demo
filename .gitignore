@@ -1,0 +1,45 @@
+# IDEA #
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Eclipse #
+.classpath
+.project
+.settings/
+classes/
+bin/
+
+# Compiled source #
+*.class
+*.dll
+
+# Reports #
+/target
+
+# Logs and databases #
+*.log
+
+# Gradle
+.gradle
+build/
+out/
+
+# Maven
+target/
+
+#chromeDriver
+!chromeDriver/linux
+!chromeDriver/win
+
+#geckoDriver
+!geckoDriver/linux
+!geckoDriver/win
+
+# OSX
+.DS_Store
+
+# other temp files
+._*
+
